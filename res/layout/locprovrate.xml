@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:text="To get all data use '0'"
+        	  android:layout_width="match_parent" android:layout_height="wrap_content"></TextView>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:layout_weight="1" >
+    <TextView android:text="Minimum Distance (m)" android:layout_width="match_parent" android:layout_height="wrap_content"></TextView>
+    <EditText  android:layout_width="match_parent" android:id="@+id/LPRet1" android:text="EditText" android:layout_height="wrap_content" inputType="number"></EditText>
+    <TextView android:text="Minimum Time (miliseconds)" android:layout_width="match_parent" android:layout_height="wrap_content"></TextView>
+    <EditText  android:layout_width="match_parent" android:id="@+id/LPRet2" android:text="EditText" android:layout_height="wrap_content" inputType="number"></EditText>
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">
+    <Button android:text="Save" android:id="@+id/LPRbut1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:text="Discard" android:id="@+id/LPRbut2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+     
+</LinearLayout>

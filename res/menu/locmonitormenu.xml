@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Choose Provider" android:titleCondensed="Provider" android:id="@+id/LMMitem1">
+        <menu>
+            <group android:id="@+id/LMMgroup1">
+            </group>
+        </menu>
+    </item>
+    <item android:title="Choose Criterion" android:titleCondensed="Criterion" android:id="@+id/LMMitem2"></item>
+</menu>

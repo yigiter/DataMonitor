@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/DLtab1">
+	<LinearLayout	
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"> 
+	  <Button android:layout_margin="10dip" android:text="Start Logging" android:id="@+id/DLbtn0" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	  <Button android:layout_margin="10dip" android:text="Event" android:id="@+id/DLbtn1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	  <Button android:layout_margin="10dip" android:text="Stop Logging" android:id="@+id/DLbtn2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<TextView android:text="Console" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center"></TextView>
+	<org.instk.datamonitor.CLogView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/DLtv1"
+		android:background="#303030"
+		android:scrollbars="vertical"
+		android:layout_weight="1"/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right">
+		<Button android:text="Show Selection" android:id="@+id/DLbtn4" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Dump Console" android:id="@+id/DLbtn3" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>
+

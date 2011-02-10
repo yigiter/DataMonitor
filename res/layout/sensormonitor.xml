@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  
+	  <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+	  		android:text="Notes :\n1. Maximum 10 sensors can be monitored at a time.\n2.Use menu to select active sensors.">
+	  </TextView>
+	    
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh1" android:text="Sensor Type"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd1" android:text="Sensor Data"></TextView>
+	  
+
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh2" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd2" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh3" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd3" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh4" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd4" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh5" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd5" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh6" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd6" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh7" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd7" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh8" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd8" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh9" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd9" android:visibility="gone"></TextView>
+	  
+	  <TextView style="@style/title_style" android:id="@+id/SMtvh10" android:visibility="gone"></TextView>
+	  <TextView style="@style/monitor_style" android:id="@+id/SMtvd10" android:visibility="gone"></TextView>
+	  
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/SMselect" android:title="Select Sensor"></item>
+    <item android:id="@+id/SMrate" android:title="Set Monitor Rate">
+    <!--
+    	<menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/SMratefastest"
+                        android:title="SENSOR_DELAY_FASTEST" />
+                <item android:id="@+id/SMrategame"
+                        android:title="SENSOR_DELAY_GAME" />
+                <item android:id="@+id/SMrateui"
+                        android:title="SENSOR_DELAY_UI"/>
+                <item android:id="@+id/SMratenormal"
+                        android:title="SENSOR_DELAY_NORMAL"/>
+            </group>
+        </menu>
+     -->
+    </item>
+</menu>
