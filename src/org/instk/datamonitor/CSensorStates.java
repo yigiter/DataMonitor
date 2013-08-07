@@ -47,43 +47,43 @@ public class CSensorStates  implements Parcelable{
 			
 			//Set name
 			for (int i=0;i<nsen;i++) {
-				switch (aSList.get(i).getType()) {
-				case (Sensor.TYPE_ACCELEROMETER):
-					names[i]="ACCELEROMETER";
-					break;
-				case (Sensor.TYPE_GRAVITY):
-					names[i]="GRAVITY";
-					break;
-				case (Sensor.TYPE_GYROSCOPE):
-					names[i]="GYROSCOPE";
-					break;
-				case (Sensor.TYPE_LIGHT):
-					names[i]="LIGHT";
-					break;
-				case (Sensor.TYPE_LINEAR_ACCELERATION):
-					names[i]="LINEAR_ACCELERATION";
-					break;
-				case (Sensor.TYPE_MAGNETIC_FIELD):
-					names[i]="MAGNETIC_FIELD";
-					break;
-				case (Sensor.TYPE_ORIENTATION):
-					names[i]="ORIENTATION";
-					break;
-				case (Sensor.TYPE_PRESSURE):
-					names[i]="PRESSURE";
-					break;
-				case (Sensor.TYPE_PROXIMITY):
-					names[i]="PROXIMITY";
-					break;
-				case (Sensor.TYPE_ROTATION_VECTOR):
-					names[i]="ROTATION_VECTOR";
-					break;
-				case (Sensor.TYPE_TEMPERATURE):
-					names[i]="TEMPERATURE";
-					break;
-				default:
-					names[i]=aSList.get(i).getName();
-				}
+//				switch (aSList.get(i).getType()) {
+//				case (Sensor.TYPE_ACCELEROMETER):
+//					names[i]="ACCELEROMETER";
+//					break;
+//				case (Sensor.TYPE_GRAVITY):
+//					names[i]="GRAVITY";
+//					break;
+//				case (Sensor.TYPE_GYROSCOPE):
+//					names[i]="GYROSCOPE";
+//					break;
+//				case (Sensor.TYPE_LIGHT):
+//					names[i]="LIGHT";
+//					break;
+//				case (Sensor.TYPE_LINEAR_ACCELERATION):
+//					names[i]="LINEAR_ACCELERATION";
+//					break;
+//				case (Sensor.TYPE_MAGNETIC_FIELD):
+//					names[i]="MAGNETIC_FIELD";
+//					break;
+//				case (Sensor.TYPE_ORIENTATION):
+//					names[i]="ORIENTATION";
+//					break;
+//				case (Sensor.TYPE_PRESSURE):
+//					names[i]="PRESSURE";
+//					break;
+//				case (Sensor.TYPE_PROXIMITY):
+//					names[i]="PROXIMITY";
+//					break;
+//				case (Sensor.TYPE_ROTATION_VECTOR):
+//					names[i]="ROTATION_VECTOR";
+//					break;
+//				case (Sensor.TYPE_TEMPERATURE):
+//					names[i]="TEMPERATURE";
+//					break;
+//				default:
+				names[i]=aSList.get(i).getName();
+//				}
 				//Set type and active status
 				types[i]=aSList.get(i).getType();
 				act_list[i]=false;
