@@ -31,7 +31,7 @@
   	android:layout_width="match_parent"
   	android:layout_height="match_parent">
   		  
-    <TableLayout android:id="@+id/SatTable1" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+    <TableLayout android:id="@+id/SatTable2" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="*">
         
         <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
         <TextView android:text="Sat.PRN"></TextView>
