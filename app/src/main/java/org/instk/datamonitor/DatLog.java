@@ -350,7 +350,7 @@ public class DatLog extends TabActivity implements OnClickListener, SensorEventL
             dtf.setTimeZone(TimeZone.getTimeZone("UTC"));
             String ftag = dtf.format(new Date());
             //return new File(Environment.getExternalStorageDirectory(), ftag+ntag);
-            return new File(getExternalFilesDir(null), "DataMonitor_" + ftag + "UTC" + ntag);
+            return new File(getExternalFilesDir(null), "Log_" + ftag + "UTC" + ntag);
         } else {
             mLV.addtext("No external Storage.");
             return null;
